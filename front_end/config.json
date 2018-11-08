@@ -1,0 +1,11 @@
+{
+	"app_id":"497635911169998858",
+	"img_list":[
+		{"name":"Aqua", "key":"aqua"},
+		{"name":"Midorima", "key":"midorimaq"},
+		{"name":"Kurisu", "key":"docpe"},
+		{"name":"Coin", "key":"moedinhaprata"},
+		{"name":"C++", "key":"cpp"},
+		{"name":"Green Wolf", "key":"green"}
+	]
+}

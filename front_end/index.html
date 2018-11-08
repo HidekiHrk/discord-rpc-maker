@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Discord RPC Maker</title>
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	<meta charset="utf-8">
+</head>
+<body id="bodi" onclick="visibility(this)">
+	<div id='heading'>
+		<img id="icon1" src="./svg/Discord-Logo-White.svg"><p id="header1">Discord RPC Maker</p><img id="sandwichmenu" src="./svg/menu.svg" onclick="visibility(this)">
+	</div>
+	<div id="sidebar">
+		<ul id="sidebarul">
+		</ul>
+	</div>
+	<div id="Body1">
+		<div id="bd2">
+			<p id="richatual">Current Rich: nothing</p>
+			<p id="richstate">Rich <span id="onofcolor" style="color: #f55;">off</span><span id="onoficon"></span></p>
+		</div>
+		<hr id="division" style="width: 400px; border: 1px solid rgba(44, 47, 51, 0.5); border-radius: 10px;">
+		<input id="desc" class="bt" type="text" placeholder="Image Description"><br/>
+		<input id="state" class="bt" type="text" placeholder="Rich State"><br/>
+		<input id="dets" class="bt" type="text" placeholder="Rich Details"><br/>
+		<button id="richInit" onclick="rpcStart()">Rich Start</button>
+		<button id="richStop" onclick="rpcClose()">Rich Off</button>
+	</div>
+	<script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
+<!--<img id="onoficon" style="filter: hue-rotate(260deg);" src="./svg/on_circle.svg">-->
